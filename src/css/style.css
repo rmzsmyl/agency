@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-all a {
+    color: white;
+    padding: 20px;
+}
+
+.logo img {
+    width: 30%;
+    left: 20px;
+    top: 20px;
+}
+
+.first {
+    width: 100%;
+    padding: 10em;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-all {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    width: 99%;
+    padding: 10px;
+    background-color: rgba(35, 37, 34, 0.39);
+    overflow-y: hidden;
+}
+
+
+
+.logo {
+    float: left;
+}
+
+.navbar {
+    float: right;
+}
+
+.second {
+    text-align: center;
+    color: white;
+}
+
+.second h3 {
+    margin: 0px 0px 32px;
+    font-size: 36px;
+}
+
+.second h1 {
+    font-size: 72px;
+    margin: 0px 0px 64px;
+}
+
+.second a {
+    font-size: 18px;
+    background-color: #ffc800;
+    padding: 20px 40px;
+    color: white;
+}
+
+.third {
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    background-color: rgba(80, 80, 80, 0.089);
+
+}
+
+.third h2 {
+    font-size: 40px;
+    margin: 0px 0px 16px;
+}
+
+.third h3 {
+    font-size: 16px;
+    margin: 0px 0px 64px;
+}
+
+.Portfolio-img .images {
+    width: 31%;
+    float: left;
+    margin-left: 26px;
+    margin-top: 15px;
+}
+
+.Portfolio-img .images img{
+    width: 100%;
+}
