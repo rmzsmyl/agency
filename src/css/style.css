@@ -1,11 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
+    /* Bağlantı rengini miras al */
 }
 
 .header-all a {
@@ -13,30 +15,37 @@ a {
     padding: 20px;
 }
 
-.logo img {
-    width: 30%;
-    left: 20px;
-    top: 20px;
-}
 
 .first {
     width: 100%;
-    padding: 10em;
+    padding: 150px;
     background-image: url(../img/header.jpg);
+    /* Görüntü yolunu düzeltin */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.first .logo {
+    position: fixed;
+    width: 10%;
+    overflow: hidden;
+}
+
 .header-all {
     position: fixed;
-    top: 20px;
-    left: 10px;
-    width: 99%;
-    padding: 10px;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 20px;
     background-color: rgba(35, 37, 34, 0.39);
-    overflow-y: hidden;
+    overflow: hidden;
 }
+
+
 
 .logo {
     float: left;
@@ -49,16 +58,17 @@ a {
 .second {
     text-align: center;
     color: white;
+    padding: 50px 0;
 }
 
 .second h3 {
-    margin: 0px 0px 32px;
+    margin: 0;
     font-size: 36px;
 }
 
 .second h1 {
     font-size: 72px;
-    margin: 0px 0px 64px;
+    margin: 20px 0;
 }
 
 .second a {
@@ -66,66 +76,33 @@ a {
     background-color: #ffc800;
     padding: 20px 40px;
     color: white;
-}
-
-.third {
-    margin-top: 10px;
-    text-align: center;
-    color: black;
-}
-
-.third h2 {
-    font-size: 40px;
-    margin: 0px 0px 16px;
-}
-
-.third h3 {
-    font-size: 16px;
-    margin: 0px 0px 64px;
-}
-
-.Portfolio-img .images {
-    width: 31%;
-    float: left;
-    margin-left: 26px;
-    margin-top: 15px;
-}
-
-.Portfolio-img .images img {
-    width: 100%;
-}
-
-
-.Services {
-    flex: 0 0 auto;
-  width: 33.33333333%;
+    text-transform: uppercase;
 }
 
 .Service {
-    padding: 1rem 0;
+    background-color: rgba(189, 189, 189, 0.171);
+    padding: 50px 150px;
     text-align: center;
     color: rgb(0, 0, 0);
-}
+ }
 
 .Service h2 {
-    font-size: 40px;
-    margin: 0 0 16px;
+    font-size: 32px;
+
 }
 
 .Service em {
-    font-size: 18px;
+    font-size: 16px;
     font-style: italic;
-    margin: 0 0 64px;
+    margin-bottom: 20px;
 }
 
 .Service h4 {
     font-size: 24px;
-    margin: 16px 0;
 }
 
 .Service p {
     font-size: 16px;
-    margin: 0 0 16px;
 }
 
 .Service i {
@@ -133,7 +110,85 @@ a {
     color: #ffda08;
 }
 
-.sections {
-  display: block;
-    width: 33.33333333%;
+.Port {
+    padding: 25px;
+    text-align: center;
+    color: black;
 }
+
+.Port h2 {
+    font-size: 40px;
+}
+
+.Port p em {
+    font-style: italic;
+}
+
+.Portfolio-img .images {
+    width: 31%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+
+.Portfolio-img .images img {
+    width: 100%;
+    height: auto;
+}
+
+.Team {
+    padding: 25px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+   }
+
+.Team h2 {
+    font-size: 32px;
+}
+
+.teaming {
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.seri img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgba(114, 114, 114, 0.342);
+    overflow: hidden;
+}
+
+.seri-i {
+    width: 100%;
+    display: flex;
+    text-align: center;
+  }
+
+.seri {
+    float: left;
+    width: 33%;
+}
+
+.pclass{
+    margin-top: 280px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.logos  {
+    background-color: azure;
+    display: flex;  
+    justify-content: center;
+}
+
+.logos img {
+    width: 150px; 
+    height: 200px; 
+    margin-right: 100px;
+  }
