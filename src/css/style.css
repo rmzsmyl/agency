@@ -38,8 +38,6 @@ a {
     overflow-y: hidden;
 }
 
-
-
 .logo {
     float: left;
 }
@@ -74,8 +72,6 @@ a {
     margin-top: 10px;
     text-align: center;
     color: black;
-    background-color: rgba(80, 80, 80, 0.089);
-
 }
 
 .third h2 {
@@ -95,6 +91,49 @@ a {
     margin-top: 15px;
 }
 
-.Portfolio-img .images img{
+.Portfolio-img .images img {
     width: 100%;
+}
+
+
+.Services {
+    flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.Service {
+    padding: 1rem 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.Service h2 {
+    font-size: 40px;
+    margin: 0 0 16px;
+}
+
+.Service em {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 0 64px;
+}
+
+.Service h4 {
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+.Service p {
+    font-size: 16px;
+    margin: 0 0 16px;
+}
+
+.Service i {
+    font-size: 100px;
+    color: #ffda08;
+}
+
+.sections {
+  display: block;
+    width: 33.33333333%;
 }
